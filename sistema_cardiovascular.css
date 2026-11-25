@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: rgb(12, 112, 112);
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 60px;  
+}
+header{
+    width: 100%;
+    height: 400px;
+    background: #373B44; 
+     /* fallback for old browsers */
+    background: -webkit-inear-gradient(to right, hsla(217, 89%, 61%, 0.5), hsla(222, 11%, 24%, 0.5)),url(https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/6FJHPNI7YRGQZAR47LXVMTVZAQ.png);
+      /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(217, 89%, 61%, 0.5), hsla(222, 11%, 24%, 0.5)),url(https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/6FJHPNI7YRGQZAR47LXVMTVZAQ.png);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     /*background-size: cover;*/
+    background-attachment: fixed;
+    position: relative;
+}
+
+header .textos-header{
+    display:flex;
+    height: 330px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.textos-header h1{
+    font-size: 70px;
+    color: #fff;
+}
+.textos-header h3{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.btn-spotify{
+    display: inline-block;
+    position: fixed;
+    width: 200px;
+    height: 55px;
+    line-height: 35px;
+    right: 80px;
+    border-radius: 50px;
+    bottom: 60px;
+    padding-bottom: 10px;
+}
+.corazon{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+.imagen_corazon{
+    width: 30%;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.modulos_cardiovascular{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+  }
+  .seccion{
+    width: 48%;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 rgba(0, 0,0 , .5);
+    padding-right: 15px;
+  }
+  .seccion > img{ 
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .hover-modulos_cardiovascular{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    background: hsla(217, 49%, 35%, 0.5);
+    transition: transform .5s;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hover-modulos_cardiovascular img{
+    width: 50px;
+  }
+  .hover-modulos_cardiovascular p{
+    color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+  }
+  .seccion:hover .hover-modulos_cardiovascular{
+    transform:scale(0);
+  }
+  
+.corazon.contenido-textos{
+      width: 48%;
+}
+.contenido-textos h3{
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.contenido-textos h3 span{
+    background: rgb(12, 112, 112);
+    color: #fff;
+    border-radius: 50%;
+    display:inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px rgba(0, 0, 0.5, .5);
+    margin-right: 5px;
+}
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+}
+.arduino{
+    box-shadow: inset 2000px 2000px 4000px rgba(43, 43, 43, 0.1);  
+    background: #647ec5;
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+    margin: auto; 
+    padding: 15px 15px 30px 15px;
+    width: 800px;
+    height: 1800px;
+    padding:10px;
+    box-sizing: border-box;
+     
+}
+.codigo_arduino{
+    padding: 0px 0px 30px 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 0px 0px 30px 20px;
+}
+.titulo_arduino{
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+.modulo_1{
+    padding-top: 10px;
+    background: rgb(255, 255, 255);
+  }
+  .modulos_cardiovascular{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+  }
+  .seccion{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 rgba(0, 0,0 , .5);
+    padding-right: 15px;
+  }
+  .seccion h2{
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+  }
+  .seccion > img{ 
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .hover-modulo_1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    background: hsla(217, 58%, 33%, 0.5);
+    transition: transform .5s;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hover-modulo_1 img{
+    width: 50px;
+  }
+  .hover-modulo_1 p{
+    color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+  }
+  .seccion:hover .hover-modulo_1{
+    transform:scale(0);
+  }
+  .caso_clinico{
+    background-color: #647ec5;
+    
+    padding: 15px 15px 15px 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .descripcion_caso{
+      margin: 10px 10px 10px 10px;
+      padding: 10px 10px 10px 10px;
+      overflow: hidden;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .h3{
+    box-shadow: inset 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  
+
+footer{
+    background:  #647ec5;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 50px;
+}
+  
+.content-foo{
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 5 px;
+    margin-bottom: 10px;
+}
+.content-foo p{
+    color: #949494;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+}
+
+@media screen and (max-width:900px){
+    header{
+      background-position: center;
+      width: 100%;
+    }
+    .corazon{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        margin: auto;
+    }
+    .corazon.contenido-textos{
+        width: 80%;
+    }
+    .imagen_corazon{
+        width: 90%;
+    }
+    .arduino{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .modulo_1{
+      width: 90%;
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;  
+    }
+    .modulos_cardiovascular{
+      width: 90%; 
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;  
+    }
+    .seccion{
+      width: 90%;
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;  
+    }
+    .seccion_img{
+      width: 60%;
+      height: 40%;
+    }
+    
+}

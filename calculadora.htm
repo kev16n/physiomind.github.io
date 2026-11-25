@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,inicial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=egde">
+  <title>Physiomind</title>
+  <link rel="icon" type="image/png" href="https://i.ibb.co/p16838Z/physiomind-favicon.webp">
+  <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <section class="textos-header">
+        <h1>Calculadora</h1>
+        <h3>enseñanza en biofísica</h3>
+        
+        </section>
+       
+        <div class = "wave" style="height: 150px; overflow: hidden;" >
+          <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;">
+            </path>
+          </svg>
+        </div> 
+    </section>
+    <section class="calcula">
+        <h1 style="text-align: center;">Operaciones</h1>
+
+        <form action="">
+            <table border="1"; align="center">
+                <h3>Presión sanguinea</h3>
+                <tr>
+                    <td>
+                        flujo de volumen : 
+                        <input type="number" name="a" id="a"></td>
+                </tr>
+                <tr>
+                    <td>
+                        Resistencia de tubo:
+                        <input type="number" name="a" id="b"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="Calcular" onclick="calcular();"> </td>
+                </tr>
+            </table>
+        </form>
+        <script>
+            function calcular(){
+                var  tension = parseInt(document.getElementById('a').value);
+                var  radio = parseInt(document.getElementById('b').value);
+                var presion = (2*tension)/radio;
+                alert('La presión cardiaca es: '+ presion)
+            }
+        </script>
+<br>
+<br>
+<br>
+<br>
+
+
+<form action="">
+    <table border="1"; align="center">
+        <h3>Gasto cardíaco</h3>
+        <tr>
+            <td>
+                frecuencia_cardiaca: 
+                <input type="number" name="a" id="c"></td>
+        </tr>
+        <tr>
+            <td>
+                volumen sistólico:
+                <input type="number" name="a" id="d"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="Calcular" onclick="calcular();"> </td>
+        </tr>
+    </table>
+</form>
+<script>
+    function calcular(){
+        var  frecuencia_cardiaca = parseInt(document.getElementById('c').value);
+        var  volumen_sistolico = parseInt(document.getElementById('d').value);
+        var gasto_cardiaco = frecuencia_cardiaca*volumen_sistolico;
+        alert('El gasto cardíaco es: '+ gasto_cardiaco)
+    }
+</script>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<form action="">
+    <table border="1"; align="center">
+        <h3>Presión vascular</h3>
+        <tr>
+            <td>
+                Volumen: 
+                <input type="number" name="a" id="e"></td>
+        </tr>
+        <tr>
+            <td>
+                Complianza:
+                <input type="number" name="a" id="f"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="Calcular" onclick="calcular();"> </td>
+        </tr>
+    </table>
+</form>
+<script>
+    function calcular(){
+        var  volumen = parseInt(document.getElementById('e').value);
+        var  complianza = parseInt(document.getElementById('f').value);
+        var presion_vascular = volumen/complianza;
+        alert('La presión vasculares: '+ presion_vascular)
+    }
+</script>
+
+
+    </section>
+
+   </header>
+
+</body>
+<main>
+
+</main>

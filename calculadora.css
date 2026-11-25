@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #647ec5;
+  }
+  .contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+  }
+  .titulo{
+    color: rgb(12, 112, 112);
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 60px;  
+  }
+  /*Header*/
+  header{
+    width: 100%;
+    height: 600px;
+    background: #1b1e24; 
+     /* fallback for old browsers */
+    background: -webkit-inear-gradient(to right, hsla(217, 89%, 61%, 0.5), hsla(222, 11%, 24%, 0.5)),url(https://www.elsevier.com/__data/assets/image/0004/710149/human-skeleton-1637151280.jpg);
+      /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(217, 89%, 61%, 0.5), hsla(222, 11%, 24%, 0.5)),url(https://www.elsevier.com/__data/assets/image/0004/710149/human-skeleton-1637151280.jpg);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     /*background-size: cover;*/
+    background-attachment: fixed;
+    position: relative;
+    
+  }
+  .wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
